@@ -1,15 +1,15 @@
-# 🚀 Automated DevOps Container Pipeline
+# Automated DevOps Container Pipeline
 
 A robust, production-ready CI/CD pipeline demonstrating the containerization of a Python Flask application, automated builds via GitHub Actions, and deployment to the GitHub Container Registry (GHCR).
 
-## 🛠️ The Tech Stack
+## The Tech Stack
 - **Application:** Python 3.9 + Flask Web Framework
 - **Containerization:** Podman (Daemonless Docker alternative)
 - **Environment:** WSL2 (Ubuntu 22.04)
 - **CI/CD:** GitHub Actions (Automated YAML Workflows)
 - **Registry:** GitHub Container Registry (GHCR)
 
-## 🏗️ Architecture Flow
+## Architecture Flow
 1. **Develop:** Code is written in Python and containerized with a `Containerfile`.
 2. **Commit:** Changes are pushed to the `main` branch.
 3. **Automate:** GitHub Actions triggers a cloud-based Linux runner.
@@ -18,7 +18,7 @@ A robust, production-ready CI/CD pipeline demonstrating the containerization of 
 
 
 
-## 🏁 How to Run Locally
+## How to Run Locally
 Ensure you have Podman or Docker installed, then run:
 
 ```bash
